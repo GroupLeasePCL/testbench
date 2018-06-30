@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta name="vaadin-version" content="8.0.5">
+ </head>
+ <body>
+  <vaadin-css-layout style-name="container" width-full>
+   <vaadin-horizontal-layout width-full height="40px">
+    <vaadin-label plain-text :middle :center>
+      Form registration 
+    </vaadin-label>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout width-full margin>
+    <vaadin-text-field caption="First name" id="firstNameTextField" width-full height="40px" _id="firstNameTextField"></vaadin-text-field>
+    <vaadin-text-field caption="Last name" width-full height="40px" _id="lastNameTextField"></vaadin-text-field>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout width-full margin>
+    <vaadin-text-field caption="Phone number" width-full height="40px" _id="phoneNumberTextField"></vaadin-text-field>
+    <vaadin-text-field caption="Email" width-full height="40px" _id="emailTextField"></vaadin-text-field>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout width-full margin>
+    <vaadin-password-field width-full height="40px" _id="passwordField"></vaadin-password-field>
+    <vaadin-password-field width-full height="40px" _id="confirmPasswordField"></vaadin-password-field>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout width-full margin>
+    <vaadin-button width="120px" height="40px" plain-text :right :expand>
+      Cancel 
+    </vaadin-button>
+    <vaadin-button width="120px" height="40px" plain-text :right>
+      Submit 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+  </vaadin-css-layout>
+ </body>
+</html>
